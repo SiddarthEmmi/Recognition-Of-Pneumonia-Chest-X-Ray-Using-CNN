@@ -1,0 +1,6 @@
+The output of this project includes a trained Convolutional Neural Network (CNN) model that classifies
+chest X-ray images into two categories: normal and pneumonia-affected. After training, the model achieves 
+an accuracy of 97.94% on the test dataset, indicating its effectiveness in distinguishing between the two 
+classes. The performance metrics, including accuracy, precision, recall, and loss, are visualized in graphs,
+providing insights into the model's learning process and effectiveness. Additionally, the model can be used 
+to predict the classification of new chest X-ray images, contributing to automated diagnostics in healthcare.
