@@ -7,10 +7,13 @@ Features:
          Data Preprocessing: Includes image resizing, normalization, and data augmentation to improve model performance.
          Hyperparameter Tuning: Optimizes learning rate, batch size, and other hyperparameters for better accuracy.
          Performance Evaluation: Visualizes accuracy, loss, precision, and recall metrics for detailed model analysis.
+
+         
 Prerequisites:
          Python 3.x: Required for running the scripts.
          Libraries: TensorFlow/Keras, NumPy, Pandas, Matplotlib, SciPy, and OpenCV.
          GPU (optional): Recommended for faster model training and processing large datasets.
          Basic knowledge of CNNs: Understanding of convolutional networks and image classification.
+         
 
 Project Associates: Siddartha S Emmi, Shreeraja H M, Shashank N M, Shaik Mohaddis
