@@ -1,4 +1,4 @@
-# Recognization-Of-Pneumonia-Chest-X-Ray-Using-CNN
+# Recognition-Of-Pneumonia-Chest-X-Ray-Using-CNN
 This project focuses on classifying chest X-rays as normal or pneumonia-affected using a Convolutional Neural Network (CNN). The dataset consists of 4,538 X-ray images, and the model is designed with multiple convolutional and pooling layers, followed by fully connected layers to classify the images. The model achieves a high accuracy of 97.94% through data preprocessing techniques like resizing and normalization, along with hyperparameter tuning. Performance metrics such as accuracy and loss are visualized using graphs. This project demonstrates the potential of deep learning in medical image classification, and instructions for setting up and running the model are provided for easy replication. Contributions to improve the model are also welcome.
 
 Features:
