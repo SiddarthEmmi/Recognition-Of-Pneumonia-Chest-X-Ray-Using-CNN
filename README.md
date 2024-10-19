@@ -13,8 +13,8 @@ Demonstrating high accuracy in the detection of pneumonia.
 # Dataset
 The dataset consists of 4,538 chest X-ray images, divided into two categories:
 
-Normal: Healthy lungs
-Pneumonia: Lungs affected by pneumonia
+* Normal: Healthy lungs
+* Pneumonia: Lungs affected by pneumonia
 Each category contains images organized into respective folders. The dataset is preprocessed to convert the images to a suitable size and normalized to enhance model performance.
 
 # Model Architecture
@@ -26,5 +26,24 @@ The CNN architecture used in this project consists of several layers:
 * Fully Connected Layers: Flatten the output and classify the images into normal or pneumonia classes.
 * Softmax Output: Generates probabilities for each class (normal, pneumonia).
 
+# Usage
+* Preprocessing: The chest X-ray images are resized and normalized to a standard format suitable for CNN input. The images are then split into training and test sets.
+* Training: Run the training script to build and train the CNN model. The model is trained for a set number of epochs (default: 50) using a batch size of 32. The Adam optimizer is applied, and early stopping is used to prevent overfitting.
+* Evaluation: After training, the model's accuracy is evaluated on the test set. A confusion matrix, along with accuracy, precision, recall, and F1-score, is generated to assess the model's overall performance.
+* Prediction: For individual predictions, you can pass a sample chest X-ray image to the model, and it will classify it as either normal or pneumonia.
 
-Project Associates: Siddartha S Emmi, Shreeraja H M, Shashank N M, Shaik Mohaddis
+# Results
+The model achieved the following results:
+
+* Best Accuracy: 97.94% on the validation dataset.
+* Loss Function: Categorical Cross-Entropy.
+  
+The performance metrics were plotted to visualize accuracy and loss during training:
+   Training Accuracy vs Validation Accuracy shows convergence after several epochs.
+   Training Loss vs Validation Loss demonstrates decreasing loss, indicating effective learning.
+   
+# Project Associates:
+* Siddartha S Emmi
+* Shreeraja H M
+* Shashank N M
+* Shaik Mohaddis
