@@ -17,6 +17,8 @@ The dataset consists of 4,538 chest X-ray images, divided into two categories:
 * Pneumonia: Lungs affected by pneumonia
 Each category contains images organized into respective folders. The dataset is preprocessed to convert the images to a suitable size and normalized to enhance model performance.
 
+* dataset: You can download the dataset by this link - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
 # Model Architecture
 The CNN architecture used in this project consists of several layers:
 
