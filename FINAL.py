@@ -6,8 +6,8 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
 # Paths to your data
-train_path = 'D:\\BITM\\6TH SEM\\MINI PROJECT\\CXR\\archive\\chest_xray\\train'
-test_path =  'D:\\BITM\\6TH SEM\\MINI PROJECT\\CXR\\archive\\chest_xray\\test'
+train_path = 'Fle Path'
+test_path =  'File Path'
 
 # Image data generators for training and testing
 train_datagen = ImageDataGenerator(
