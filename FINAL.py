@@ -6,7 +6,7 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
 # Paths to your data
-train_path = 'Fle Path'
+train_path = 'File Path'
 test_path =  'File Path'
 
 # Image data generators for training and testing
