@@ -37,7 +37,7 @@ The CNN architecture used in this project consists of several layers:
 # Results
 The model achieved the following results:
 
-* Best Accuracy: 97.94% on the validation dataset.
+* Best Accuracy: 91% on the validation dataset.
 * Loss Function: Categorical Cross-Entropy.
   
 The performance metrics were plotted to visualize accuracy and loss during training:
